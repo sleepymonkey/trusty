@@ -37,6 +37,6 @@ The overall approach:
 ### Scripts
 * `initiate-etl.sh` -- uploads zip file to s3 bucket. kicks off etl process
 * `curl-api.sh` -- invoke POST /address search api call
-* `db.sh` -- opens psql cli to remote postgres db (makes best attempt at auto configuring. see comments in script fails to connect)
+* `db.sh` -- opens psql cli to remote postgres db (makes best attempt at auto configuring. see comments in script if fails to connect)
 * `send-preprocess-topic-event.sh` -- convenience script to reprocess an existing zip file
 * `send-etl-topic-event.sh` -- convenience script to re-process existing CSV file (file must exist in shared EFS drive)

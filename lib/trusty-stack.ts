@@ -207,6 +207,8 @@ export class TrustyStack extends cdk.Stack {
          * lambda for POST /address api search calls
          */
         const apiFunction = new NodejsFunction(this, 'api-function', {
+            memorySize: 256,
+            timeout: cdk.Duration.seconds(15),
             runtime: lambda.Runtime.NODEJS_16_X,
             entry: path.join(__dirname, '/../lambda/api-lambda/index.ts'), 
             handler: 'handler',
