@@ -1,0 +1,5 @@
+fips,apn,street_number,street_pre_direction,street_name,street_suffix,street_post_direction,unit_type,unit_number,formatted_street_address,city,state,zip_code,zip_plus_four_code,latitude,longitude,geocoding_accuracy,census_tract,carrier_code
+06001,1-1111-14,300,,OAK,ST,,#,109,300 OAK ST # 109,OAKLAND,CA,94607,,37.794074,-122.267998,PARCEL CENTROID,060014033.001030,
+06001,1-113-1-1,,,5,ST,,,,5 ST,OAKLAND,CA,94607,,37.805,-122.2812,,0000410500,
+06001,1-1111-4,330,,MADISON,ST,,APT,C4,330 MADISON ST APT C4,OAKLAND,CA,94607,,37.805,-122.2812,,4033001029,
+06115,910-001-734-000,,,,,,,,,,CA,,,,,BLOCK GROUP,,
